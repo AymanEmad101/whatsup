@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    padding: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    min-height: 320px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-item:hover button {
+    display: block;
+}
+
+button {
+    display: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: white;
+    border: none;
+    letter-spacing: 4px;
+}
+
+button:hover {
+    background-color: rgb(100, 300, 250);
+}
+
+.eins {
+    background-image: url(https://media.istockphoto.com/id/1422731968/photo/young-barber-making-haircut-to-a-bearded-man-using-comb.jpg?s=612x612&w=0&k=20&c=JVhT8ieG48ueVeKtHM5rScGPwjE4DmScR251-7bHJVA=);
+}
+
+.twei {
+    background-image: url(https://media.istockphoto.com/id/1354214535/photo/man-looking-herself-in-the-mirror-while-sitting-in-chair-at-a-barbershop.jpg?s=612x612&w=0&k=20&c=vsoUyCeKp1fXItn463AscGcD54BLMCw0m5Y00jed2Sk=);
+}
+
+.drei {
+background-image: url(https://media.istockphoto.com/id/1449561669/photo/barber-brushing-designs-on-a-clients-hair.jpg?s=612x612&w=0&k=20&c=9ENvnQ-_FiDzmvapSjMwVsZ0UJsrnPXNSixVI2Pen4c=);
+}
+
+.vier {
+    background-image: url(https://media.istockphoto.com/id/1176958822/photo/professional-barberian-tools-of-hairdresser-on-table-tools-for-cutting-beard-and-hair.jpg?s=612x612&w=0&k=20&c=oJv7T6U82TeO3ILXsvBhMmG7cs4Vz9u6Jwxf0OXa4kM=);
+}
